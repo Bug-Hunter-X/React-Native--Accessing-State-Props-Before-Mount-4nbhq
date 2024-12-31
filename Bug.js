@@ -1,0 +1,1 @@
+This error occurs when you try to access a component's state or props before it has mounted.  This commonly happens within lifecycle methods like `constructor` or `componentWillMount` (in older React versions) where `this.state` or `this.props` might be undefined. Another cause could be asynchronous operations accessing state before it's updated.
